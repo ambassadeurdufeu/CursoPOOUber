@@ -5,6 +5,6 @@ class UberBlack(Car):
     seatsMaterial = []
 
     def __init__(self, license, driver, typeCarAccepted, seatsMaterial):
-        super.__init__(license, driver)
+        Car.__init__(self, license, driver)
         self.typeCarAccepted = typeCarAccepted
         self.seatsMaterial = seatsMaterial
